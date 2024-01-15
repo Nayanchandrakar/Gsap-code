@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | REJOUICE®</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="text-white">
+
+    <!-- page one div  -->
+    <div id="main">
+        <div id="page1" class="relative inset-0 w-full h-[100vh] bg-red-500 ">
+
+            <div class=" bg-orange-600 rounded-full w-[8vw] h-[8vw] fixed z-20  flex items-center
+                justify-center top-0 " id="cursorBall">
+                <span class="text-black font-normal text-[1.2vw]">Play Reel</span>
+            </div>
+
+            <video autoplay muted loop src="./assets/home.mp4"
+                class="h-full  w-full object-cover absolute inset-0"></video>
+
+            <div id="page1-content" class="relative inset-0 w-full h-full">
+                <!-- navbar  -->
+                <nav class="flex w-full h-[90px] items-center justify-between text-[1.4vw] z-20 relative inset-0 px-10">
+                    <span>
+                        The Ventures Agency.
+                    </span>
+                    <span>
+                        Menu
+                    </span>
+                </nav>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
+        integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"
+        integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
