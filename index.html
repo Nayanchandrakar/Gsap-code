@@ -5,25 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | REJOUICE®</title>
-    <script src="https://cdn.tailwindcss.com"></script>\
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body class="text-white">
-
     <!-- page one div  -->
     <div id="main">
-        <div id="page1" class="relative inset-0 w-full h-[100vh] bg-red-500 ">
+        <div id="page1" class="inset-0 relative w-full h-[100vh] bg-red-500 ">
 
+            <!-- animated bouncing ball  -->
             <div class=" bg-orange-600 rounded-full w-[8vw] h-[8vw] fixed z-20  flex items-center
                 justify-center top-0 " id="cursorBall">
                 <span class="text-black font-normal text-[1.2vw]">Play Reel</span>
             </div>
 
+            <!-- home background  -->
             <video autoplay muted loop src="./assets/home.mp4"
                 class="h-full  w-full object-cover absolute inset-0"></video>
 
+            <!-- Page content div  -->
             <div id="page1-content" class="relative inset-0 w-full h-full">
                 <!-- navbar  -->
                 <nav class="flex w-full h-[90px] items-center justify-between text-[1.4vw] z-20 relative inset-0 px-10">
@@ -36,10 +38,46 @@
                 </nav>
             </div>
 
+            <!-- Rejouice Headline  -->
+            <span id="headline">
+                <span>r</span>
+                <span>e</span>
+                <span>j</span>
+                <span>o</span>
+                <span>u</span>
+                <span>i</span>
+                <span>c</span>
+                <span>e</span>
+            </span>
+
         </div>
 
-        <div id="page2" class="w-full h-screen">
+        <div id="page2" class="w-full h-screen mt-20 relative inset-0 ">
+            <div id="page2Header"
+                class="flex items-end justify-between mx-auto md:max-w-[1280px] border border-b-black pb-4">
+                <span>
+                    <span>A brand accelerator.<br>
+                        With two engagement models.</span>
+                </span>
+                <span>Paris & San Diego</span>
+            </div>
 
+            <div class="elem  px-10 ">
+                <h1> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We are a digital brand accelerator
+                    curating
+                </h1>
+                <h1>dream teams for dream clients. We design, </h1>
+                <h1> develop, and
+                    scale market-defining brands.</h1>
+
+                <h1>
+                    Choose full cash compensation or offset up to
+                </h1>
+                <h1>50% of our fees for
+                    equity in your company. Your</h1>
+                <h1>vision, your decision.</h1>
+                </h1>
+            </div>
         </div>
     </div>
 
