@@ -87,15 +87,67 @@ function Page2ParaAnimation() {
     y: 170,
     opacity: 0,
     stagger: 0.2,
-    duration: 1,
+    duration: 0.5,
     delay: 1,
     scrollTrigger: {
       trigger: "#page2",
       scroller: "#main",
-      start: "top 47%",
-      end: "top 46%",
+      start: "top 90%",
+      end: "top 26%",
       scrub: 2,
     },
   })
 }
 Page2ParaAnimation()
+
+function para2Heading() {
+  gsap.from("#page2Header span", {
+    y: 170,
+    opacity: 0,
+    stagger: 0.2,
+    duration: 0.5,
+    delay: 1,
+    scrollTrigger: {
+      trigger: "#page2",
+      scroller: "#main",
+      start: "top 90%",
+      end: "top 26%",
+      scrub: 2,
+    },
+  })
+}
+para2Heading()
+
+function page3Heading() {
+  gsap.from("#animate", {
+    y: 170,
+    opacity: 0,
+    stagger: 0.2,
+    duration: 0.5,
+    delay: 1,
+    scrollTrigger: {
+      trigger: "#page3",
+      scroller: "#main",
+      start: "top 90%",
+      end: "top 26%",
+      scrub: 2,
+    },
+  })
+}
+page3Heading()
+
+function increaseWidht() {
+  gsap.from(".straightLine", {
+    width: "0%",
+    duration: 0.5,
+    scrollTrigger: {
+      trigger: "#page2",
+      scroller: "#main",
+      start: "top 90%",
+      end: "top 26%",
+      scrub: 2,
+    },
+  })
+}
+
+increaseWidht()

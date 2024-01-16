@@ -46,11 +46,10 @@
    display: flex;
    align-items: end;
    justify-content: space-between;
-   padding-bottom: 1.5rem;
    margin-left: auto;
    margin-right: auto;
    max-width: 1280px;
-   border-bottom: 1px solid black;
+   padding-bottom: 2rem;
  }
 
  #page2Header span {
@@ -119,7 +118,8 @@
  }
 
  .elem {
-   margin-top: 3rem;
+   width: 100%;
+   padding-top: 3rem;
    padding-right: 2rem;
    padding-left: 2rem;
  }
@@ -138,4 +138,71 @@
    inset: 0;
    padding-right: 2rem;
    padding-left: 2rem;
+ }
+
+ .straightLine {
+   width: 100%;
+   display: flex;
+   height: 1px;
+   position: absolute;
+   left: 0;
+
+   background-color: black;
+ }
+
+ #hellodiv {
+   position: relative;
+   inset: 0;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 1280px;
+ }
+
+ #page3 {
+   text-align: center;
+   width: 100%;
+   height: fit-content;
+   font-family: nb;
+   padding: 4rem;
+
+ }
+
+ #page3-topbar {
+   font-size: 1.4vw;
+   font-weight: 500;
+   margin-bottom: .7rem;
+ }
+
+ #page3-topbar span {
+   font-size: .7rem;
+   width: fit-content;
+   height: fit-content;
+   background-color: black;
+   color: white;
+   padding: .3rem .6rem;
+   border-radius: 25px;
+ }
+
+ .explore {
+   font-size: 5vw;
+   font: 800;
+ }
+
+
+ #page4 {
+   width: 100%;
+   height: fit-content;
+   font-family: nb;
+   font-size: 1.6vw;
+   margin-top: 4rem;
+ }
+
+ #page4-topbar {
+   width: 100%;
+   height: fit-content;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 1280px;
+   margin: 0 auto;
  }
